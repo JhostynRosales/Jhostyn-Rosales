@@ -1,29 +1,90 @@
 # Hola, soy Jhostyn Rosales 👋
 
-**Java Backend Developer | Fullstack Web Developer Junior**
+### Desarrollador de Software Junior | Fullstack & Multiplataforma
 
-Soy un desarrollador de software apasionado por la construcción de arquitecturas escalables, integraciones de APIs y la optimización de la lógica de negocio. Me encanta transformar problemas reales en código limpio y eficiente.
-
----
-
-### 💻 Mi Stack Tecnológico
-
-| Backend | Frontend | Base de Datos | Herramientas |
-| :---: | :---: | :---: | :---: |
-| ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) | ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
-| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white) | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) |  | ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) |
-|  | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) |  |  |
+Soy una persona proactiva, con gran capacidad de aprendizaje y motivada por seguir creciendo profesionalmente dentro del sector tecnológico. Mi enfoque principal está en el desarrollo web moderno, los sistemas de gestión, la integración de Inteligencia Artificial y el desarrollo multiplataforma.
 
 ---
 
-### 🚀 Proyectos Destacados
+### Sobre Mí
 
-#### [PetLogiLink-API: Sistema de Automatización Logística e Integración Multicanal](https://github.com/JhostynRosales/petlogilink-api)
-Un proyecto de arquitectura backend que resuelve retos de e-commerce reales:
-- **Tecnología:** Java 17, Spring Boot, Spring Validation, REST APIs.
-- **Funcionalidades:** Sincronización de inventario mediante tareas asíncronas (`@Scheduled`), integración webhooks de plataformas externas (Amazon, Miravia) y aplicación de servicios (Mocks) basados en Inteligencia Artificial para automatización de catálogos y SEO.
-- **Arquitectura:** Estructura multicapa limpia, DTOs y validación de payloads.
+- 💻 Actualmente trabajando como **Desarrollador Fullstack (Prácticas)** en *Palmar Logistic*.
+- 🎓 Estudiando el **Grado Superior en Desarrollo de Aplicaciones Web (DAW)** en el Colegio Valle del Miro.
+- 📜 Técnico Superior en **Desarrollo de Aplicaciones Multiplataforma (DAM)** (Primer curso completado con media de 8 en Colegio Cooperativa Lagomar).
+- 📍 Ubicación: Valdemoro, Madrid, España.
+- 🗣️ Idiomas: Español (Nativo), Inglés (B2 — Cambridge FCE), Catalán (Básico).
 
 ---
 
-📫 **¿Hablamos?** Puedes revisar mis repositorios a continuación o contactarme directamente para oportunidades profesionales.
+### Tecnologías y Competencias
+
+| Área | Tecnologías |
+| :--- | :--- |
+| **Frontend** | Angular, HTML5, CSS3, JavaScript, TypeScript, Bootstrap |
+| **Backend** | Java (Spring Boot, Spring Data, Spring Security, MVC), Python, PHP, API REST |
+| **Bases de Datos** | MySQL, PostgreSQL, ObjectDB |
+| **Mensajería & DevOps** | RabbitMQ, Docker, Git, GitHub, Linux, Postman, Maven |
+
+---
+
+### Proyectos Destacados
+
+#### [`petlogilink-api`](https://github.com/JhostynRosales/petlogilink-api) — Plataforma Fullstack de Automatización Logística
+
+Monorepo que integra un Backend en **Java 17 / Spring Boot 3** con un Frontend en **Angular 18**, diseñado para orquestar la logística y sincronización de inventarios de un e-commerce multicanal.
+
+| Backend | Frontend |
+| :--- | :--- |
+| API REST para ingesta de pedidos (webhooks Amazon/Miravia) | Dashboard con gráficos Chart.js por marketplace |
+| Motor `@Scheduled` de sincronización de stock con márgenes dinámicos | Tabla interactiva de inventario con filtros y edición inline |
+| Servicio de automatización SEO basado en reglas | Terminal de logs en tiempo real |
+| Repositorios In-Memory (sin dependencias externas) | Sistema de login con guards de ruta |
+
+**Stack:** Java 17 · Spring Boot 3 · Angular 18 · TypeScript · Chart.js · Maven
+
+---
+
+#### [`notification-microservice`](https://github.com/JhostynRosales/notification-microservice) — Arquitectura Orientada a Eventos
+
+Microservicio independiente que consume eventos desde **RabbitMQ** y envía correos electrónicos transaccionales de forma asíncrona, desacoplando las notificaciones de la API principal.
+
+```
+API Principal  ──▶  RabbitMQ (Exchange)  ──▶  Notification Service  ──▶  Email SMTP
+  (publish)          order.notifications       @RabbitListener            Thymeleaf HTML
+                         .queue
+```
+
+- Configuración programática de Exchange, Queue y Bindings con Spring AMQP.
+- Plantillas HTML profesionales renderizadas con Thymeleaf (confirmación de pedido).
+- Entorno contenerizado con Docker Compose (RabbitMQ + Management UI).
+
+**Stack:** Java 17 · Spring Boot 3 · RabbitMQ · Spring Mail · Thymeleaf · Docker
+
+---
+
+### Experiencia Profesional
+
+**Desarrollador Fullstack (Prácticas) — Palmar Logistic** *(Marzo 2026 — Junio 2026)*
+
+- **Integración de Sistemas:** Consumo y desarrollo de APIs JSON-REST para comunicación con transportistas externos (Correos Express) y control de flujos de tracking en tiempo real.
+- **Automatización con IA:** Implementación de scripts en Python integrando modelos de lenguaje (LLMs) para automatizar la generación de contenido y metadatos SEO comerciales.
+- **Lógica de Negocio (E-commerce):** Desarrollo de módulos a medida en PHP (PrestaShop) para gestión dinámica de stocks, tareas programadas (Crons) y motores de asignación de paquetería por reglas de peso/dimensiones.
+
+---
+
+### Certificaciones
+
+- 🎓 **Certificación de Desarrollo en Angular** — SoloLearn (2026)
+
+---
+
+### Contacto
+
+Si quieres hablar sobre desarrollo de software, colaborar en algún proyecto o conocer más sobre mi perfil, no dudes en contactarme.
+
+- 📧 **Email:** [jhxavier@gmail.com](mailto:jhxavier@gmail.com)
+- 📍 **Localización:** Valdemoro, Madrid
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=JhostynRosales&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+</p>
