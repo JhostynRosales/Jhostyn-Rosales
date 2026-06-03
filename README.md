@@ -2,6 +2,8 @@
 
 ### Desarrollador de Software Junior | Fullstack & Multiplataforma
 
+*🇬🇧 [Read in English](./README_EN.md)*
+
 Soy una persona proactiva, con gran capacidad de aprendizaje y motivada por seguir creciendo profesionalmente dentro del sector tecnológico. Mi enfoque principal está en el desarrollo web moderno, los sistemas de gestión, la integración de Inteligencia Artificial y el desarrollo multiplataforma.
 
 ---
