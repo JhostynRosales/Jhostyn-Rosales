@@ -85,6 +85,3 @@ Si quieres hablar sobre desarrollo de software, colaborar en algún proyecto o c
 - 📧 **Email:** [jhxavier@gmail.com](mailto:jhxavier@gmail.com)
 - 📍 **Localización:** Valdemoro, Madrid
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JhostynRosales&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-</p>
